@@ -85,7 +85,7 @@
             this.menuGithub,
             this.menuClear});
             this.menu.Name = "contextMenuStrip1";
-            this.menu.Size = new System.Drawing.Size(185, 70);
+            this.menu.Size = new System.Drawing.Size(185, 48);
             // 
             // menuGithub
             // 
@@ -112,6 +112,7 @@
             this.Controls.Add(this.md5Box);
             this.Controls.Add(this.dropPanel);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.MinimumSize = new System.Drawing.Size(500, 300);
             this.Name = "mainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

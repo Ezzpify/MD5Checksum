@@ -71,8 +71,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "popupForm";
             this.Opacity = 0.8D;
+            this.ShowInTaskbar = false;
             this.Text = "popupForm";
             this.TopMost = true;
             this.Shown += new System.EventHandler(this.popupForm_Shown);
