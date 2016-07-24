@@ -43,14 +43,13 @@
             // 
             this.md5Box.BackColor = System.Drawing.Color.White;
             this.md5Box.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.md5Box.Dock = System.Windows.Forms.DockStyle.Fill;
             this.md5Box.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.md5Box.ForeColor = System.Drawing.Color.Gray;
             this.md5Box.Location = new System.Drawing.Point(0, 115);
             this.md5Box.Multiline = true;
             this.md5Box.Name = "md5Box";
             this.md5Box.ReadOnly = true;
-            this.md5Box.Size = new System.Drawing.Size(584, 147);
+            this.md5Box.Size = new System.Drawing.Size(600, 147);
             this.md5Box.TabIndex = 2;
             this.md5Box.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 

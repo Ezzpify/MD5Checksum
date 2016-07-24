@@ -37,6 +37,9 @@ namespace MD5Checksum
         private void mainForm_Load(object sender, EventArgs e)
         {
             dropPanel.AllowDrop = true;
+
+            md5Box.ScrollBars = ScrollBars.Vertical;
+            md5Box.WordWrap = false;
         }
 
 
@@ -104,11 +107,9 @@ namespace MD5Checksum
 
             Point ptLowerLeft = new Point(0, menuLabel.Height);
             ptLowerLeft = menuLabel.PointToScreen(ptLowerLeft);
+
             menu.Show(ptLowerLeft);
         }
-
-
-        
 
 
         /// <summary>
